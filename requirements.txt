@@ -4,3 +4,4 @@ numpy
 bcrypt
 jupyter
 nbconvert
+ipython
