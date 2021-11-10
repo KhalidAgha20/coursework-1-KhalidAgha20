@@ -7,3 +7,4 @@ nbconvert
 ipython
 jupyter-images
 matplotlib
+openpyxl
