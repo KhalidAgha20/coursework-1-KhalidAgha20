@@ -32,6 +32,7 @@ these will be the methods used for elicitation of requirements.
 Two of the selected methods, interviews and surveys, require to be done with appropriate people to achieve the best
 results. To identify these people of interest, a context diagram is provide a vague idea of the use of the software.
 
+![Context Digram](img2/context_diagram.png "Context Digram")
 
 ### Requirement specification method
 
