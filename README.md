@@ -1,11 +1,37 @@
 # Coursework 2
 
-Most students will use the same repository for coursework 2. You may use this file to present the results of that
-coursework if you wish. Alternatively you can use video or audio to provide the explanations instead of writing them.
+## Introduction
+In coursework 1, a plan was set up for building a datascience software for a client. The purpose of the software is to
+act as a tool to visualize statistics about tennis match times. This software would bve used by tournament organizers
+and broadcasters to allocate times for matches. The software has been named Tennis Statistics (TS) tool.
 
 ## Requirements definition and analysis
-The term 'requirements' is used in the broader sense, user stories and/or use cases may be used.
+Requirements of a software development process point out features that must be present in the completed version of the
+software. These requirements can be functional meaning that they specify a specific feature or action to be added to
+the system. Another type of requirements is nom-functional requirements which specify features regarding the performance
+and usability of the software. This part focuses on the methods used to elicit and prioritise these requirements.
+
 ### Requirements identification methods
+To identify the requirements, the methods listed on Business Analysis Body of Knowledge (BABOK). BABOK recommends a list
+of techniques used to elicit the requirements of a software engineering project. The listed techniques are:
+
+- Interviews
+- Workshops
+- Surveys
+- Interface Analysis
+- Focus Groups
+- Observation
+- Brainstorming
+- Prototyping
+- Analysing Documentation
+
+Due to the time constraint of this project, not all the listed techniques can be utilised. The ones that can fit into
+the timeframe of the project are **interviews**, **surveys**, **brainstorming**, and **documentation analysis**. Thus,
+these will be the methods used for elicitation of requirements.
+
+Two of the selected methods, interviews and surveys, require to be done with appropriate people to achieve the best
+results. To identify these people of interest, a context diagram is provide a vague idea of the use of the software.
+
 
 ### Requirement specification method
 
