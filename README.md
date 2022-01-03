@@ -32,8 +32,12 @@ these will be the methods used for elicitation of requirements.
 Two of the selected methods, interviews and surveys, require to be done with appropriate people to achieve the best
 results. To identify these people of interest, a context diagram is provide a vague idea of the use of the software.
 ###
-![Context Digram](img2/context_diagram.png "Context Digram")
-<img src="img2/context_diagram.png" width="200"/>
+![Context Diagram](img2/context_diagram.png "Context Diagram")
+###
+Based on the figure shown above interviews need to be held with potential corporate users and advertisers. Furthermore,
+surveys are a good method of data collection from the general user base. Another point that needs to be taken into
+consideration is the fact that the team is working using an agile variant of CRISP-DM methodology. Thus, regular 
+meetings with the clients is another method used to set project requirements.
 
 ### Requirement specification method
 
