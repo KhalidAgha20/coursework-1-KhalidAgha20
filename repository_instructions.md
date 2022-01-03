@@ -15,7 +15,7 @@ To set up your project:
 4. Edit .gitignore to add any config files and folders for your IDE. PyCharm, VisualStudio Code, Xcode and NetBeans have
    already been added.
 5. [comp0035_coursework1.md](comp0035_coursework1.md) contains an outline structure of a document that you can use to write coursework 1.
-6. [comp0035_coursework2.md](comp0035_coursework2.md) contains an outline structure of a document that you can use to write coursework 2. Alternatively there is a separate assignment in GitHub classroom if you prefer to separate coursework 1 and 2.
+6. [comp0035_coursework2.md](README.md) contains an outline structure of a document that you can use to write coursework 2. Alternatively there is a separate assignment in GitHub classroom if you prefer to separate coursework 1 and 2.
 
 Before you submit the coursework:
 
