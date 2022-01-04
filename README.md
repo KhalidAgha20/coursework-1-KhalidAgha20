@@ -86,8 +86,21 @@ US18 | As an app user, I want to be able use the application on iOS and Android 
 
 
 ## Design
-### Structure and flow of the interface
+### User Interface Flow
+![User flow diagram](img2/wireframes-1.jpg "User flow diagram")
 
+### Wireframes
+#### Landing Page
+![Landing Page](img2/wireframes-2.jpg "Landing Page")
+###
+#### Creating an account
+![Signup page](img2/wireframes-3.jpg "Signup page")
+###
+#### Homepage
+![Homepage](img2/wireframes-4.jpg "Homepage")
+###
+#### Match time statistics
+![Statistics page](img2/wireframes-5.jpg "Statistics page")
 ### Relational database design
 
 ### Application structure
