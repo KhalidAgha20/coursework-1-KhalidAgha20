@@ -11,7 +11,7 @@ software. These requirements can be functional meaning that they specify a speci
 the system. Another type of requirements is non-functional requirements which specify features regarding the performance
 and usability of the software. This part focuses on the methods used to elicit and prioritise these requirements.
 
-### Requirements identification methods
+### Identification methods
 To identify the requirements, the methods listed on Business Analysis Body of Knowledge (BABOK). BABOK recommends a list
 of techniques used to elicit the requirements of a software engineering project. The listed techniques are:
 
@@ -39,7 +39,7 @@ surveys are a good method of data collection from the general user base. Another
 consideration is the fact that the team is working using an agile variant of CRISP-DM methodology. Thus, regular 
 meetings with the clients is another method used to set project requirements.
 
-### Requirement specification method
+### Specification method
 As the methodology being used is an agile one, the requirements will be recorded as user stories. These user stories
 will be listed along with conditions of satisfaction for each one of them. The user stories will include features
 recommended by users along with the purpose and functionality of the feature.
@@ -64,7 +64,24 @@ process and that the following order was achieved after the first scrum meeting.
 
  User Story ID | User Story | Conditions of Satisfaction | Functional (F) / Non-Functional (NF) | MoSCoW Priority
 --- | --- | --- | --- | ---
-US01 | 
+US01 | As the owner, I want to be able to prove to account types, a free and a paid one, so that the paid account shows more detailed data | <ul><li>When signing up for an account, a premium and free account option must be given</li><li>Choosing the paid version triggers an extra step for payment</li></ul> | F | Must have
+US02 | As an app user, I want to be able to create an account so that I save visual statistics | <ul><li>Each account holder must have a library to save statistics</li><li>Free users will be limited to 30 saved visuals</li></ul> | F | Must have
+US03 | As an app user, I want to be able to run the application on all desktop versions of Google Chrome and Safari so that the application can be accessed on most computers | <ul><li>Software needs to run on both browsers</li><li>There must be no bugs or glitches present</li></ul> | NF | Must have
+US04 | As a moderator, I want to be able to carry transactions through the app so that I can process subscription and advertising fees | <ul><li>A payment gateway must be connected to the app</li><li>If a purchase is to be made, the user must be redirected to the payment gateway to insert card details</li></ul> | F | Must have
+US05 | As a broadcaster, I want to have detailed play by play times so that I can fit ad-breaks | <ul><li>For premium package holders only</li><li>Detailed analysis with accurate approximations of wait time between serves</li><ul> | F | Must have
+US06 | As an app user, I want my user data to be stored securely so that my data does not get shared with external sources | <ul><li>System will use end-to-end encryption to ensure safety of data being transferred</li><li>Servers must use top of the line encryption</li></ul> | NF | Must have
+US07 | As an organizer, I want to be able to have an all access account to have permission to add data | <ul><li>New data from tournaments can be added to database</li><li>Organizer account types can add these new data</li><li>Special organizer accounts are required for this to work</li><li>This type of account can only be created by the software owner at the request of the organizers</li></ul> | F | Must have
+US08 | As a moderator, I want to have ad slots so that I can attract advertisers as a source of income | <ul><li>Empty spaces must be left throughout the web app to display advertisements</li><li>Premium users dont get to see advertisements</li></ul> | F | Must have
+US09 | As a public user, I want to be able to visualize match-up times to predict game times | <ul><li>For each match, a predicted game time will be displayed</li><ul> | F | Must have
+US10 | As an app user, I want to be able to see the player pictures so that I can easily identify them | <ul><li>Players will be assigned a unique ID</li><li>Pictures of players will be stored in the database and each picture will be linked to this ID</li><li>Wherever the player photos is required, the unique ID will be used to embed this picture</li></ul> | F | Should have
+US11 | As an organizer, I want to be able to add competitions so that they would be available on the system | <ul><li>New competitions can be added to the web app by the organizers</li><li>Matchups and tournament brackets can be added to database by the organizers</li></ul> | F | Should have
+US12 | As a moderator, I want to be able to receive feedback so that I can improve the user experience | <ul><li>A feedback button must be present in all screens</li><li>A drop dwn menu with purpose of feedback must appear</li><li>Feedback can be given to improve UX, correct faulty data, and report bugs</li></ul> | F | Should have
+US13 | As an app user, I want to be able to create matchups so that I can predict times of potential matchups | <ul><li>A tool will be designed to predict match times</li><li>Users will have the option to choose players, number of sets, and number of games</li></ul> | F | Should have
+US14 | As an app user, I want to be able to see upcoming games in the app dashboard so that it takes less time to get visuals | <ul><li>Data input by tournament organizers will be used to implement this feature</li><li>Homepage will display all the upcoming matches and the relevant statistics</li></ul> | F | Could have
+US15 | As an app user, I want to be able to see tennis news so that I am up to date with the sport | <ul><li>A credible news API will be used to get news</li><li>The breaking news will be displayed on the homepage when logged in</li></ul> | F | Could have
+US16 | As a paid user, I want to receive a reminder before my next subscription payment so that I am reminded of my direct debit | <ul><li>Reminders will be sent to the registered email address before processing the transaction</li></ul> | NF | Could have
+US17 | As an app user, I want to be able to favorite matchups so that I can quickly display visuals on the matchup | <ul><li>Favourite button is added for each matchup</li><li>Clicking on the button makes the match appear on the homepage</li></ul> | F | Won't have
+US18 | As an app user, I want to be able use the application on iOS and Android devices so that I can use it on mobile devices | <ul><li>Mobile version of the web app must be created</li><li>Needs to be optimized for touch controls</li><ul> | NF | Won't have
 
 
 
