@@ -6,9 +6,9 @@ act as a tool to visualize statistics about tennis match times. This software wo
 and broadcasters to allocate times for matches. The software has been named Tennis Statistics (TS) tool.
 
 ## Requirements definition and analysis
-Requirements of a software development process point out features that must be present in the completed version of the
+User Stories of a software development process point out features that must be present in the completed version of the
 software. These requirements can be functional meaning that they specify a specific feature or action to be added to
-the system. Another type of requirements is nom-functional requirements which specify features regarding the performance
+the system. Another type of requirements is non-functional requirements which specify features regarding the performance
 and usability of the software. This part focuses on the methods used to elicit and prioritise these requirements.
 
 ### Requirements identification methods
@@ -40,11 +40,32 @@ consideration is the fact that the team is working using an agile variant of CRI
 meetings with the clients is another method used to set project requirements.
 
 ### Requirement specification method
+As the methodology being used is an agile one, the requirements will be recorded as user stories. These user stories
+will be listed along with conditions of satisfaction for each one of them. The user stories will include features
+recommended by users along with the purpose and functionality of the feature.
 
 ### Prioritisation method
+To prioritise the user stories, a combination of two techniques will be used. First, the user stories will be split
+using there MoSCoW method. This will split the user stories into four main categories. The categories are as follows:
+
+- **Must have**: The feature must be included in the final product
+- **Should have**: The feature is of great importance but not as crucial and time sensitive as the previous category
+- **Could have**: The feature provides great additions to the product but will not be considered at the moment due to time and budget constraints
+- **Won't have**: The feature provides little input ot the project and will be considered if there is time left to work on the project
+
+Using MoSCoW, the features will be split into groups and the next phase of prioritisation will start. As the method used
+is an agile methodology, regular scrum meetings need to take place. In these meetings, the team will decide to sort each
+category further and add the user stories into a product backlog. This order can change throughout the development phase
+and the user stories can be moved to new MoSCoW subgroup.
 
 ### Documented and prioritised requirements
-Link to the full list of documented and prioritised requirements.
+The following is a list of prioritised user stories. Note that the order of importance can change during the development
+process and that the following order was achieved after the first scrum meeting.
+
+ User Story ID | User Story | Conditions of Satisfaction | Functional (F) / Non-Functional (NF) | MoSCoW Priority
+--- | --- | --- | --- | ---
+US01 | 
+
 
 
 ## Design
