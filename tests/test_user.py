@@ -35,5 +35,5 @@ def test_that_output_is_true_when_correct_password_is_typed(app_user):
     THEN the identification status must be true
     """
     status = app_user.is_correct_password('uclmecheng')
-    assert status == True
+    assert status is True
 
