@@ -1,4 +1,5 @@
 # Coursework 2
+https://github.com/ucl-comp0035/coursework-1-KhalidAgha20
 
 ## Introduction
 In coursework 1, a plan was set up for building a datascience software for a client. The purpose of the software is to
@@ -140,9 +141,14 @@ Route | View | Controller Action
 
 ## Testing
 ### Choice of unit testing library
+The pytest and pytest-cov libraries were used for the testing process. The other option for testing is the python
+standard library, unittest. One major advantage of pytest is the presence of fixtures. Fixture functions are added to a
+conftest.py file which will be used for the majority of the testing processes. Furthermore, development of the web app 
+will take place using Flask and Plotly Dash. The documentations for these encourage the use of pytest.
 
 ### Tests
-The tests should be in a separate and appropriately named file/directory.
+The test files are all located in the 'tests' directory. The main test file is [test_user.py](tests/test_user.py) and
+the file containing the fixtures is [conftest.py](/tests/conftest.py).
 
 ### Test results
 #### Running all test files
