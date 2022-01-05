@@ -90,16 +90,16 @@ US18 | As an app user, I want to be able use the application on iOS and Android 
 ![User flow diagram](img2/wireframes-1.jpg "User flow diagram")
 
 ### Wireframes
-#### Landing Page
+#### Landing Page <1>
 ![Landing Page](img2/wireframes-2.jpg "Landing Page")
 ###
-#### Creating an account
+#### Creating an account <2>
 ![Signup page](img2/wireframes-3.jpg "Signup page")
 ###
-#### Homepage
+#### Homepage <3>
 ![Homepage](img2/wireframes-4.jpg "Homepage")
 ###
-#### Match time statistics
+#### Match time statistics <4>
 ![Statistics page](img2/wireframes-5.jpg "Statistics page")
 
 ### Relational database design
@@ -128,9 +128,15 @@ route. Then the controller function associated with the route is triggered. Then
 from the database server and this is passed on to the view. The view uses the data to render a page using the adequate
 HTML code. Finally, the rendered page is rendered to the user.
 
+The following table shows examples of URL routes and the controller actions:
 
-
-
+Route | View | Controller Action
+--- | --- | ---
+/ | Landing Page <1> | index() is triggered. The welcome page is rendered
+/login | Homepage <3> | login() will check the typed credentials to those in the record
+/dashboard | Homepage <3> | home() will render the homepage for registered users. For non-registered users, it will redirect to the Landing page <1>
+/signup | Creating an account <2> | signup() will add the details of a new user to the database. First checks must be done to avoid duplicate usernames and emails
+/matches/match_id | Match time statistics <4> | show_stats(match_id) will show visual data for the chosen game
 
 ## Testing
 ### Choice of unit testing library
@@ -139,43 +145,77 @@ HTML code. Finally, the rendered page is rendered to the user.
 The tests should be in a separate and appropriately named file/directory.
 
 ### Test results
-Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
+#### Running all test files
+![Pytest Results](img2/pytest.png "Pytest Results")
 
-### Continuous integration (optional)
-Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
+#### Coverage Test
+![Coverage pytest results](img2/coverage.png "Coverage pytest results")
+The results show that the tests carried out account for 89% of the overall code in the user.py file.
+
+### Continuous integration
+![Github test results](img2/github.png "Github test results")
+Running performing the tests on GitHub showed that the same results shown in python. Furthermore, all the Lint with
+flake8 errors were corrected. The final test results, shown above, demonstrate no errors in this field.
 
 ## Weekly progress reports
-
-Copy and paste from Moodle or use the following structure. Delete this instruction text.
-
+### Report 1
 What I did in the last week:
 
-- item
-- item
+- Finished coursework 1 and submitted it
+- Watched lectures on requirements
+- made a list of requirements and prioritized them
 
 What I plan to do in the next week:
 
-- item
-- item
+- complete the requirement list
 
 Issues blocking my progress (state ‘None’ if there are no issues):
 
-- item
-- item
-
-### Report 1
+- N/A
 
 ### Report 2
+What I did in the last week:
+
+- Made a list of requirements
+- researched on wireframes
+- created the first draft of multiple wireframes
+
+What I plan to do in the next week:
+
+- finalize the wireframes
+- watch the lectures for database designs
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+
+- N/A
 
 ### Report 3
+What I did in the last week:
+
+- Created relational databases for the coursework
+- normalised the ERD
+
+What I plan to do in the next week:
+
+- Read testing documentation
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+
+- N/A
 
 ### Report 4
+What I did in the last week:
 
-## References
+- completed the PBL task
+- started testing the code for coursework 2
 
-Delete this instruction text before submitting:
+What I plan to do in the next week:
 
-- Include references to any templates you have used.
-- If you justify any of your choices with references then remember to also include these.
-- Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-  used to using in your course.
+- finalize the coursework
+- learn GitHub continuous integration
+- 
+Issues blocking my progress (state ‘None’ if there are no issues):
+
+- N/A
+
+
