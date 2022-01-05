@@ -105,7 +105,7 @@ US18 | As an app user, I want to be able use the application on iOS and Android 
 ### Relational database design
 #### Conceptual Design
 ![Conceptual diagram](img2/conceptual_diagram.png "Conceptual diagram")
-##
+###
 #### Logical Design
 To create this model, the team normalised the relationships and thus more tables were created to separate the data.
 Furthermore, it has been decided that if users wish to delete their accounts, all data connected to that username will
