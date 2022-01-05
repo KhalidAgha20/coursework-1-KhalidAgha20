@@ -105,7 +105,15 @@ US18 | As an app user, I want to be able use the application on iOS and Android 
 ### Relational database design
 #### Conceptual Design
 ![Conceptual diagram](img2/conceptual_diagram.png "Conceptual diagram")
+#
+####Logical Design
+To create this model, the team normalised the relationships and thus more tables were created to separate the data.
+Furthermore, it has been decided that if users wish to delete their accounts, all data connected to that username will
+be deleted as data will not be stored against the will of the users. However, if a record regarding any of the tennis
+players and games is to be deleted, the software will only allow the user to hide this record. This ensures that overall
+that the accuracy of the created visual charts is not lost. The final diagram is shown below.
 
+![Logical ERD](img2/logical_database.png "Logical ERD")
 
 ### Design Pattern
 For the design pattern, the development team has opted to use an MVC model. This type of structure splits the program
