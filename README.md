@@ -101,9 +101,27 @@ US18 | As an app user, I want to be able use the application on iOS and Android 
 ###
 #### Match time statistics
 ![Statistics page](img2/wireframes-5.jpg "Statistics page")
-### Relational database design
 
-### Application structure
+### Relational database design
+#### Conceptual Design
+
+![Conceptual digram](img2/coceptual diagram.png "Conceptual digram")
+
+
+### Design Pattern
+For the design pattern, the development team has opted to use an MVC model. This type of structure splits the program
+logics into three interconnected elements. These elements are the model, view, and the controller. Hence, the structure
+is named 'MVC'.
+
+![MVC Diagram](img2/MVC.png "MVC Diagram")
+
+The system works in a series of steps as shown above. First the user enters a URL and the software will find a matching
+route. Then the controller function associated with the route is triggered. Then the model will pull the required data
+from the database server and this is passed on to the view. The view uses the data to render a page using the adequate
+HTML code. Finally, the rendered page is rendered to the user.
+
+
+
 
 
 ## Testing
