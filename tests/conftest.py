@@ -1,6 +1,6 @@
 import pytest
 from datetime import date
-from tests import User
+from project.user import User
 
 @pytest.fixture(scope='function')
 def app_user():
