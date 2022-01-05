@@ -104,8 +104,7 @@ US18 | As an app user, I want to be able use the application on iOS and Android 
 
 ### Relational database design
 #### Conceptual Design
-
-![Conceptual digram](img2/coceptual diagram.png "Conceptual digram")
+![Conceptual diagram](img2/conceptual_diagram.png "Conceptual diagram")
 
 
 ### Design Pattern
