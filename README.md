@@ -219,7 +219,7 @@ What I plan to do in the next week:
 
 - finalize the coursework
 - learn GitHub continuous integration
-- 
+
 Issues blocking my progress (state ‘None’ if there are no issues):
 
 - N/A
