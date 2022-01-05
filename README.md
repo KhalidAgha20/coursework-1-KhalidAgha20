@@ -111,7 +111,8 @@ To create this model, the team normalised the relationships and thus more tables
 Furthermore, it has been decided that if users wish to delete their accounts, all data connected to that username will
 be deleted as data will not be stored against the will of the users. However, if a record regarding any of the tennis
 players and games is to be deleted, the software will only allow the user to hide this record. This ensures that overall
-that the accuracy of the created visual charts is not lost. The final diagram is shown below.
+that the accuracy of the created visual charts is not lost. This maintains the referential integrity of the database.
+The final diagram is shown below.
 
 ![Logical ERD](img2/logical_database.png "Logical ERD")
 
