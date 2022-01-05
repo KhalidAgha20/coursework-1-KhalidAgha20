@@ -9,3 +9,4 @@ jupyter-images
 matplotlib
 openpyxl
 pytest
+pytest-cov
